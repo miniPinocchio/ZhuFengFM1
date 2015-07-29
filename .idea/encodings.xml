@@ -3,6 +3,21 @@
   <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/arrow_down_normal.png" charset="GBK" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/arrow_down_pressed.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/bg_welcome.jpg" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/guide_page1.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/guide_page2.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/guide_page3.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/guide_page4.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/tab1.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/tab1_down.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/tab2.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/tab2_down.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/tab4.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/tab4_down.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/tab5.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/tab5_down.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ting.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ting_small.jpg" charset="GBK" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
