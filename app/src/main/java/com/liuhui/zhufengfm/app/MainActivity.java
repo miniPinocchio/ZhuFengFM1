@@ -2,22 +2,24 @@ package com.liuhui.zhufengfm.app;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.widget.RadioGroup;
+import com.liuhui.zhufengfm.app.base.BaseActivity;
 import com.liuhui.zhufengfm.app.fragments.CustomFragment;
 import com.liuhui.zhufengfm.app.fragments.DiscoverFragment;
 import com.liuhui.zhufengfm.app.fragments.DownloadTingFragment;
 import com.liuhui.zhufengfm.app.fragments.ProfileFragment;
 
 
-public class MainActivity extends FragmentActivity implements RadioGroup.OnCheckedChangeListener {
+public class MainActivity extends BaseActivity implements RadioGroup.OnCheckedChangeListener {
 
     private DiscoverFragment discoverFragment;
     private CustomFragment customFragment;
     private DownloadTingFragment downloadTingFragment;
     private ProfileFragment profileFragment;
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -71,5 +73,10 @@ public class MainActivity extends FragmentActivity implements RadioGroup.OnCheck
         }
         transaction.replace(R.id.fragment_container,fragment);
         transaction.commit();
+    }
+
+    @Override
+    protected int getExitAnimationId() {
+        return 0;
     }
 }
