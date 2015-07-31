@@ -42,3 +42,22 @@ dependencies {
     compile 'com.android.support:support-v4:22.2.0'
     compile 'com.android.support:design:22.2.0'
 }
+//    代码检查选项
+//    lintOptions {
+//        //当发现代码格式错误的时候，是否终止  false
+//        abortOnError false
+//    }
+//    代码检查的选项
+//     lintOptions
+//    当发现代码格式错误的时候 是否终止
+//    productFlavors {
+////代表的那个前工程发布多少套软件包
+//        //代表一套软件,这一套也称作发不渠道
+//        //内部可以定制,包ID 版本号 编译信息
+//        //如果没有指定的字段,
+//        baidu {
+//            minSdkVersion 13
+//        }
+//    }
+//    productFlavors {
+//    }
